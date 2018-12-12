@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header'
 import  InputGreeting from './InputGreeting'
 import BadRobot from './BadRobot'
+import KanyeBot from './KanyeBot'
 
 
   class App extends Component {
@@ -38,11 +39,12 @@ import BadRobot from './BadRobot'
       </div>
       <div>
         <h2><u><strong>Bad Robot</strong></u></h2>
-        
+
         <p>I hear you saying <BadRobot name2= {this.state.greeting} />, Is that correct?</p>
       </div>
       <div>
         <h2><u><strong>Kanyebot 5000</strong></u></h2>
+        <p>I'm gonna let you finish but Beyonce is <KanyeBot name3= {this.state.greeting} /> </p>
       </div>
     </div>
 
